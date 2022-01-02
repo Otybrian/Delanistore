@@ -1,0 +1,24 @@
+.section1 {
+    background-image: url("/images/section1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    height: 500px;
+}
+.about {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.services {
+    text-align: center;
+    background-image: url("/images/services.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    color: white;
+}
