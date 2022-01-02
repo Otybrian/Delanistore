@@ -15,4 +15,11 @@ function validName() {
     }
 }
 
+function validEmail() {
+    if (inputtedEmail == "") {
+        alert("please enter your email address!");
+        document.email.email.focus();
+        return false;
+    }
+}
 };
