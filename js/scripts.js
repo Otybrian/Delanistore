@@ -29,4 +29,5 @@ function validMessage() {
         return true;
     }
 }
+alert("Hello " + document.getElementById("name").value + ', We are glad you reached out to us. Thank you for your message. We shall get back to you soonest!');
 };
