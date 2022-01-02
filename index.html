@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani Studio</title>
 </head>
+
 <body>
     <div class="container-fluid">
         <div class="section1">
@@ -48,21 +50,21 @@
                     is what is needed.</p>
             </div>
             <div id="development">
-                <img src="images/development.png" class="img-responsive" height="60px">
+                <img src="images/development.png" id="development-one" class="img-responsive" height="60px">
                 <h2>DEVELOPMENT</h2>
-                <p>All engineers are fluent in the latest enterprise, mobile<br>
-                    and web development technologies.</p>
-                <p>They collaborate with your team to write and improve<br>
+                <p class="development-hidden">All engineers are fluent in the latest enterprise, mobile<br>
+                    and web development technologies.<br>
+                    They collaborate with your team to write and improve<br>
                     code on a daily basis using proven practices such as<br>
                     test Driven development and pair-programming.</p>
             </div>
             <div id="product">
-                <img src="images/product.png" class="img-responsive" height="60px">
+                <img src="images/product.png" id="product-one" class="img-responsive" height="60px">
                 <h2>PRODUCT MANAGEMENT</h2>
-                <p>Planning and development is iterative because we are<br>
+                <p class="product-hidden">Planning and development is iterative because we are<br>
                     constantly coding and testing. The products we build are<br>
-                    always ready to go live.</p>
-                <p>This iterative process allows changes as business <br>
+                    always ready to go live.<br>
+                    This iterative process allows changes as business <br>
                     requirements evolve.</p>
             </div>
         </div>
@@ -130,5 +132,10 @@
             </div>
         </div>
     </div>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.js"></script>
 </body>
+
 </html>
