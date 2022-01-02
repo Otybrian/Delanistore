@@ -22,4 +22,11 @@ function validEmail() {
         return false;
     }
 }
+function validMessage() {
+    if (inputtedMessage == "") {
+        alert("kindly add a message!");
+        document.message.message.focus();
+        return true;
+    }
+}
 };
