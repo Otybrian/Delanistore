@@ -37,6 +37,20 @@ $(document).ready(function(){
       $(".design-hidden").hide(2000);
     });
     $("#design-one").click(function(){
-      $("design-hidden").show(3000);
+      $(".design-hidden").show(3000);
     });
+
+    $("#development").click(function(){
+        $(".development-hidden").hide(2000);
+      });
+      $("#development").click(function(){
+        $(".development-hidden").show(3000);
+      });
+
+      $("#product").click(function(){
+        $(".product-hidden").hide(2000);
+      });
+      $("#product").click(function(){
+        $(".product-hidden").show(3000);
+      });
   });
