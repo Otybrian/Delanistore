@@ -31,3 +31,12 @@ function validMessage() {
 }
 alert("Hello " + document.getElementById("name").value + ', We are glad you reached out to us. Thank you for your message. We shall get back to you soonest!');
 };
+
+$(document).ready(function(){
+    $("#design-one").click(function(){
+      $(".design-hidden").hide(2000);
+    });
+    $("#design-one").click(function(){
+      $("design-hidden").show(3000);
+    });
+  });
