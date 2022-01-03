@@ -1,3 +1,6 @@
+*{
+    font-family: "Roboto";
+}
 .section1 {
     background-image: url("/images/section1.jpg");
     background-size: cover;
@@ -41,6 +44,9 @@
 }
 .photos {
     padding-bottom: 20px;
+}
+#contact {
+    color: white;
 }
 #enter1 #name{
     height: 30px;
